@@ -91,7 +91,7 @@ function Login() {
         <h2>Create an Account</h2>
         <form className='form-1' onSubmit={(e)=>handleRegister(e)}>
           <label htmlFor="file">
-            <img className='img-1' src={avatar.url || "./avatar.png"} alt=""/>
+            <img className='img-1' src={avatar.url || "./avatar.jpg"} alt=""/>
             Upload an Image
           </label>
           <input type="file"  id="file" accept="image/*" style={{display:'none'}} onChange={(e)=>handleAvatar(e)}/>

@@ -1,0 +1,71 @@
+.addUser {
+    padding: 30px;
+    background-color: rgba(3, 18, 46, 0.804);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+}
+
+.form-2 {
+    display: flex;
+    gap: 20px; 
+}
+
+.form-2 input {
+    font-size: large;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #1c1c1c;
+    color: white;
+}   
+
+.b3 {
+    font-size: large;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.b3:hover {
+    background-color: #0e55b2;
+}
+
+.user {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail h2 {
+    margin: 0;
+    font-size: large;
+    color: white;
+}
+
+.b2 {
+    font-size: large;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.b2:hover {
+    background-color: #0e55b2;
+}

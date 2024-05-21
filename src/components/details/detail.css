@@ -1,0 +1,111 @@
+.detail{
+    flex: 1;
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+    -webkit-overflow-scrolling: touch; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.user-1{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    background-color: rgba(11, 11, 54, 0.38);
+}
+.user-1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgba(6, 28, 151, 0.473);
+}
+.info-1{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+.title{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.title img{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(17, 25,40,0.3);
+    border: 1px solid rgba(17, 25, 40, 0.364);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.title img:hover{
+    background-color: rgba(17, 25, 40, 0.514);
+}
+.photos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.photoItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.photoDetail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.photoDetail img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.photoDetail span{
+    font-size: 14px;
+    font-weight: 400;
+    color: lightgray;
+}
+.photoItem .icon-2{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(17, 25, 40, 0.364);
+    background-color: rgba(17, 25,40,0.3);
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.photoItem .icon-2:hover{
+    background-color: rgba(17, 25, 40, 0.527);
+}
+.b4{
+    margin-top: 5px;
+    padding: 15px;
+    background-color: rgba(68, 12, 23, 0.767);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 700;
+}
+.b4:hover{
+    background-color: rgba(68, 12, 23, 0.914);
+}
+.logout{
+    padding: 10px;
+    background-color: rgba(2, 2, 35, 0.629);
+}
+.logout:hover{
+    background-color: rgba(2, 2, 35, 0.763);
+}
